@@ -1,0 +1,16 @@
+{
+  "ModelVersion": 2.0,
+  "Parameters":
+  [
+    {"model": "models/ResNet224_1119_norm_iter_210000.bin"},
+    {"face_rect_x": 45},
+    {"face_rect_y": 90},
+    {"face_rect_w": 90},
+    {"face_rect_h": 100},
+	{"new_height": 256},
+	{"new_width": 256},
+    {"input_C": 3},
+    {"input_H": 224},
+    {"input_W": 224}
+  ]
+}
